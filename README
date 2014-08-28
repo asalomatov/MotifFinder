@@ -1,0 +1,50 @@
+// contact andrei.salomatov@gmail.com for questions/information
+
+1. Installation
+    Requirements: Linux OS, g++ compiler 4.7.2 or later, you may have
+    to modify Makefile if your default compiler is outdated.
+    unzip MotifFinder.zip
+    cd MotifFinder
+    make
+2. Running motifFinder.exe (MF)
+    Execute MF without arguments for usage information.
+3. Input format.
+    Input directory is suplied as first argument to MF. This directory contains
+    text files with extension .txt, files not having this extension will be ignored.
+    Each file should contain one sequence of nucleotides with
+    exons delimeted by "XXX". After splitting read sequences, 
+    all substrings shorter than 50 nucleotides are discarded. 
+4. Algorithm.
+    MF will consider all available string of nucleotides of length 50,
+    search for motifs in the first 15 nucleotides of a string (front subsequence),
+    then augment found front motifs by searching for motifs in the last 15 
+    nucleotides (tail subsequence), 20 nucleotides in the middle do not matter.
+    Maximum number of mismatches is specified in the second argument,
+    this constrain must be satisfied by each front and each tail sequence.
+    MF will record and output all motifs observed in no fewer than N 
+    sequences (files), where N is MF's third argument. Nucleotide "A" is 
+    assumed to be equivalent to nucleotide "G".
+5. Output.
+    The following files are created in the working directory.
+    MotifFinder.log containing progress updates. 
+    Motifs.output containing two tab delimeted fields: 
+        - number of matched sequences (score),
+        - motif given as (front sequence).(tail sequence), "." stands for 
+          middle 20 characters.
+    Since nucleotides "A" and "G" are equivalent, each motif will contain only the one 
+    most frequently observed during matching.
+    Motifs.output.detail containing these "|" delimeted fields
+        - number of matched sequences (score),
+        - motif given as (front sequence).(tail sequence), "." stands for 
+          middle 20 characters.
+        - vector of scores for each nucleotide in the front sequence.
+        - vector of scores for each nucleotide in the tail sequence.
+        - vector with number of mismatches for motif's front sequence.
+        - vector with number of mismatches for motif's tail sequence.
+6. Design
+    aux.* contains a few utility functions.
+    BioSeq.* implements containers for sequences, motifs, as well as 
+    search functions.
+    mf.cpp is main function.
+
+

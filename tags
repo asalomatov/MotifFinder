@@ -1,0 +1,202 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AGtoAG	BioSeq.cpp	/^void BioSeq::AGtoAG(Motif &m)$/;"	f	class:BioSeq	signature:(Motif &m)
+AGtoAG	BioSeq.hpp	/^    void AGtoAG(Motif &m);$/;"	p	class:BioSeq	access:public	signature:(Motif &m)
+AGtoO	BioSeq.cpp	/^void BioSeq::AGtoO(std::string &mystr)$/;"	f	class:BioSeq	signature:(std::string &mystr)
+AGtoO	BioSeq.hpp	/^    void AGtoO(std::string &mystr);$/;"	p	class:BioSeq	access:public	signature:(std::string &mystr)
+A_count	BioSeq.hpp	/^    unsigned int A_count;$/;"	m	struct:Motif	access:public
+AccumMatchtingStats	BioSeq.cpp	/^void BioSeq::AccumMatchtingStats(const BSeq bs, Motif m)$/;"	f	class:BioSeq	signature:(const BSeq bs, Motif m)
+AccumMatchtingStats	BioSeq.hpp	/^    void AccumMatchtingStats(const BSeq bs, Motif m);$/;"	p	class:BioSeq	access:public	signature:(const BSeq bs, Motif m)
+AccumulateNumACGT	BioSeq.hpp	/^    void AccumulateNumACGT(const std::string s);$/;"	p	class:BioSeq	access:public	signature:(const std::string s)
+AddToSet	BioSeq.cpp	/^void BioSeq::AddToSet(const std::string &str_a)$/;"	f	class:BioSeq	signature:(const std::string &str_a)
+AddToSet	BioSeq.hpp	/^    void AddToSet(const std::string &str_a);$/;"	p	class:BioSeq	access:public	signature:(const std::string &str_a)
+BSeq	BioSeq.hpp	/^struct BSeq$/;"	s
+BSeq::a	BioSeq.hpp	/^    std::string a;$/;"	m	struct:BSeq	access:public
+BSeq::b	BioSeq.hpp	/^    std::string b;$/;"	m	struct:BSeq	access:public
+BSeq::index	BioSeq.hpp	/^    unsigned int index;   \/\/which sequence it came from$/;"	m	struct:BSeq	access:public
+BioSeq	BioSeq.cpp	/^BioSeq::BioSeq(void)$/;"	f	class:BioSeq	signature:(void)
+BioSeq	BioSeq.hpp	/^    BioSeq(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+BioSeq	BioSeq.hpp	/^class BioSeq$/;"	c
+BioSeq::AGtoAG	BioSeq.cpp	/^void BioSeq::AGtoAG(Motif &m)$/;"	f	class:BioSeq	signature:(Motif &m)
+BioSeq::AGtoAG	BioSeq.hpp	/^    void AGtoAG(Motif &m);$/;"	p	class:BioSeq	access:public	signature:(Motif &m)
+BioSeq::AGtoO	BioSeq.cpp	/^void BioSeq::AGtoO(std::string &mystr)$/;"	f	class:BioSeq	signature:(std::string &mystr)
+BioSeq::AGtoO	BioSeq.hpp	/^    void AGtoO(std::string &mystr);$/;"	p	class:BioSeq	access:public	signature:(std::string &mystr)
+BioSeq::AccumMatchtingStats	BioSeq.cpp	/^void BioSeq::AccumMatchtingStats(const BSeq bs, Motif m)$/;"	f	class:BioSeq	signature:(const BSeq bs, Motif m)
+BioSeq::AccumMatchtingStats	BioSeq.hpp	/^    void AccumMatchtingStats(const BSeq bs, Motif m);$/;"	p	class:BioSeq	access:public	signature:(const BSeq bs, Motif m)
+BioSeq::AccumulateNumACGT	BioSeq.hpp	/^    void AccumulateNumACGT(const std::string s);$/;"	p	class:BioSeq	access:public	signature:(const std::string s)
+BioSeq::AddToSet	BioSeq.cpp	/^void BioSeq::AddToSet(const std::string &str_a)$/;"	f	class:BioSeq	signature:(const std::string &str_a)
+BioSeq::AddToSet	BioSeq.hpp	/^    void AddToSet(const std::string &str_a);$/;"	p	class:BioSeq	access:public	signature:(const std::string &str_a)
+BioSeq::BioSeq	BioSeq.cpp	/^BioSeq::BioSeq(void)$/;"	f	class:BioSeq	signature:(void)
+BioSeq::BioSeq	BioSeq.hpp	/^    BioSeq(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+BioSeq::ClearRawSeq	BioSeq.hpp	/^    void ClearRawSeq(void){std::vector < std::vector < std::string > >().swap(m_raw_seq);}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::Distance	BioSeq.cpp	/^unsigned int BioSeq::Distance(const std::string &s1, const std::string &s2, const unsigned int StopIfReached)$/;"	f	class:BioSeq	signature:(const std::string &s1, const std::string &s2, const unsigned int StopIfReached)
+BioSeq::Distance	BioSeq.hpp	/^    unsigned int Distance(const std::string &s1, const std::string &s2, const unsigned int StopIfReached);$/;"	p	class:BioSeq	access:public	signature:(const std::string &s1, const std::string &s2, const unsigned int StopIfReached)
+BioSeq::GetCount	BioSeq.hpp	/^    unsigned int GetCount(void){return m_count;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetCountCutoff	BioSeq.hpp	/^    unsigned int GetCountCutoff(void){return m_count_cutoff;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetMotif	BioSeq.hpp	/^    Motif GetMotif(void){return m_motif;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetNFilesRead	BioSeq.hpp	/^    unsigned int GetNFilesRead(void){return m_N_files_read;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetNSeqFound	BioSeq.hpp	/^    unsigned int GetNSeqFound(void){return m_N_BSeq_found;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetRawSequences	BioSeq.hpp	/^    std::vector < std::vector < std::string > > GetRawSequences(void){return m_raw_seq;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetSeqALength	BioSeq.hpp	/^    unsigned int GetSeqALength(void){return m_seqA_length;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetSeqAMissMatch	BioSeq.hpp	/^    unsigned int GetSeqAMissMatch(void){return m_seqA_mismatches;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetSeqBLength	BioSeq.hpp	/^    unsigned int GetSeqBLength(void){return m_seqB_length;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetSeqBMissMatch	BioSeq.hpp	/^    unsigned int GetSeqBMissMatch(void){return m_seqB_mismatches;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::GetSeqLength	BioSeq.hpp	/^    unsigned int GetSeqLength(void){return m_seq_length;}$/;"	f	class:BioSeq	access:public	signature:(void)
+BioSeq::IsMotif	BioSeq.cpp	/^bool BioSeq::IsMotif(void)$/;"	f	class:BioSeq	signature:(void)
+BioSeq::IsMotif	BioSeq.hpp	/^    bool IsMotif(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+BioSeq::IsMotifFront	BioSeq.cpp	/^bool BioSeq::IsMotifFront(const BSeq bs_0)$/;"	f	class:BioSeq	signature:(const BSeq bs_0)
+BioSeq::IsMotifFront	BioSeq.hpp	/^    bool IsMotifFront(const BSeq bs_0);$/;"	p	class:BioSeq	access:public	signature:(const BSeq bs_0)
+BioSeq::IsNew	BioSeq.cpp	/^bool BioSeq::IsNew(const std::string &str_a)$/;"	f	class:BioSeq	signature:(const std::string &str_a)
+BioSeq::IsNew	BioSeq.hpp	/^    bool IsNew(const std::string &str_a);$/;"	p	class:BioSeq	access:public	signature:(const std::string &str_a)
+BioSeq::NucleotidesEqualAG	BioSeq.cpp	/^bool BioSeq::NucleotidesEqualAG(const char &n1, const char &n2)$/;"	f	class:BioSeq	signature:(const char &n1, const char &n2)
+BioSeq::NucleotidesEqualAG	BioSeq.hpp	/^    bool NucleotidesEqualAG(const char &n1, const char &n2);$/;"	p	class:BioSeq	access:public	signature:(const char &n1, const char &n2)
+BioSeq::OutputMotifs	BioSeq.hpp	/^    int OutputMotifs(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+BioSeq::PopulateBSeqV	BioSeq.cpp	/^void BioSeq::PopulateBSeqV(void)$/;"	f	class:BioSeq	signature:(void)
+BioSeq::PopulateBSeqV	BioSeq.hpp	/^    void PopulateBSeqV(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+BioSeq::ReadSequences	BioSeq.cpp	/^int BioSeq::ReadSequences(const char *path)$/;"	f	class:BioSeq	signature:(const char *path)
+BioSeq::ReadSequences	BioSeq.hpp	/^    int ReadSequences(const char *path);$/;"	p	class:BioSeq	access:public	signature:(const char *path)
+BioSeq::SearchByDistance	BioSeq.hpp	/^    void SearchByDistance(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+BioSeq::SearchFront	BioSeq.cpp	/^void BioSeq::SearchFront(std::fstream &myfile)$/;"	f	class:BioSeq	signature:(std::fstream &myfile)
+BioSeq::SearchFront	BioSeq.hpp	/^    void SearchFront(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+BioSeq::SearchFull	BioSeq.cpp	/^void BioSeq::SearchFull(std::fstream &myfile)$/;"	f	class:BioSeq	signature:(std::fstream &myfile)
+BioSeq::SearchFull	BioSeq.hpp	/^    void SearchFull(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+BioSeq::SetCountCutoff	BioSeq.hpp	/^    void SetCountCutoff(const unsigned int x){m_count_cutoff=x;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x)
+BioSeq::SetDelim	BioSeq.hpp	/^    void SetDelim(const std::string &s){m_delim=s;} $/;"	f	class:BioSeq	access:public	signature:(const std::string &s)
+BioSeq::SetSeqAMisMatch	BioSeq.hpp	/^    void SetSeqAMisMatch(const unsigned int n){m_seqA_mismatches=n;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int n)
+BioSeq::SetSeqAStartLength	BioSeq.hpp	/^    void SetSeqAStartLength(const unsigned int x, const unsigned int l){m_seqA_start=x;m_seqA_length=l;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x, const unsigned int l)
+BioSeq::SetSeqBMisMatch	BioSeq.hpp	/^    void SetSeqBMisMatch(const unsigned int n){m_seqB_mismatches=n;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int n)
+BioSeq::SetSeqBStartLength	BioSeq.hpp	/^    void SetSeqBStartLength(const unsigned int x, const unsigned int l){m_seqB_start=x;m_seqB_length=l;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x, const unsigned int l)
+BioSeq::SetSeqLength	BioSeq.hpp	/^    void SetSeqLength(const unsigned int x){m_seq_length=x;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x)
+BioSeq::ValidateBSeqV	BioSeq.cpp	/^void BioSeq::ValidateBSeqV(void)$/;"	f	class:BioSeq	signature:(void)
+BioSeq::ValidateBSeqV	BioSeq.hpp	/^    void ValidateBSeqV(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+BioSeq::WriteMotifsToFile	BioSeq.cpp	/^void BioSeq::WriteMotifsToFile(std::fstream &myfile)$/;"	f	class:BioSeq	signature:(std::fstream &myfile)
+BioSeq::WriteMotifsToFile	BioSeq.hpp	/^    void WriteMotifsToFile(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+BioSeq::m_N_BSeq_found	BioSeq.hpp	/^    unsigned int m_N_BSeq_found;$/;"	m	class:BioSeq	access:private
+BioSeq::m_N_files_read	BioSeq.hpp	/^    unsigned int m_N_files_read;$/;"	m	class:BioSeq	access:private
+BioSeq::m_bSeqV	BioSeq.hpp	/^    std::vector < std::vector < BSeq > > m_bSeqV; \/\/main container for reshaped sequences$/;"	m	class:BioSeq	access:private
+BioSeq::m_count	BioSeq.hpp	/^    unsigned int m_count;$/;"	m	class:BioSeq	access:private
+BioSeq::m_count_cutoff	BioSeq.hpp	/^    unsigned int m_count_cutoff;   \/\/only keep motifs matching at least this many sequences$/;"	m	class:BioSeq	access:private
+BioSeq::m_delim	BioSeq.hpp	/^    std::string m_delim;           \/\/exon delim$/;"	m	class:BioSeq	access:private
+BioSeq::m_motif	BioSeq.hpp	/^    Motif m_motif;$/;"	m	class:BioSeq	access:private
+BioSeq::m_motifs	BioSeq.hpp	/^    std::vector < Motif > m_motifs;    \/\/full motifs$/;"	m	class:BioSeq	access:private
+BioSeq::m_motifs_a	BioSeq.hpp	/^    std::vector < Motif > m_motifs_a;  \/\/string a only$/;"	m	class:BioSeq	access:private
+BioSeq::m_raw_seq	BioSeq.hpp	/^    std::vector < std::vector < std::string > > m_raw_seq;$/;"	m	class:BioSeq	access:private
+BioSeq::m_seqA_length	BioSeq.hpp	/^    unsigned int m_seqA_length;$/;"	m	class:BioSeq	access:private
+BioSeq::m_seqA_mismatches	BioSeq.hpp	/^    unsigned int m_seqA_mismatches;  \/\/max num of mismatches $/;"	m	class:BioSeq	access:private
+BioSeq::m_seqA_start	BioSeq.hpp	/^    unsigned int m_seqA_start;$/;"	m	class:BioSeq	access:private
+BioSeq::m_seqB_length	BioSeq.hpp	/^    unsigned int m_seqB_length;$/;"	m	class:BioSeq	access:private
+BioSeq::m_seqB_mismatches	BioSeq.hpp	/^    unsigned int m_seqB_mismatches;$/;"	m	class:BioSeq	access:private
+BioSeq::m_seqB_start	BioSeq.hpp	/^    unsigned int m_seqB_start;$/;"	m	class:BioSeq	access:private
+BioSeq::m_seq_length	BioSeq.hpp	/^    unsigned int m_seq_length;$/;"	m	class:BioSeq	access:private
+BioSeq::m_unique_motifs	BioSeq.hpp	/^    std::set < std::string > m_unique_motifs; \/\/string a only, for checking uniquenes$/;"	m	class:BioSeq	access:private
+BioSeq::~BioSeq	BioSeq.cpp	/^BioSeq::~BioSeq(void)$/;"	f	class:BioSeq	signature:(void)
+BioSeq::~BioSeq	BioSeq.hpp	/^    ~BioSeq(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+CC	Makefile	/^CC=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c -O3 -s -Wall -std=c++0x $/;"	m
+ClearRawSeq	BioSeq.hpp	/^    void ClearRawSeq(void){std::vector < std::vector < std::string > >().swap(m_raw_seq);}$/;"	f	class:BioSeq	access:public	signature:(void)
+CloseFile	aux.cpp	/^void CloseFile(std::fstream &myfile)$/;"	f	signature:(std::fstream &myfile)
+CloseFile	aux.hpp	/^void CloseFile(std::fstream &myfile);$/;"	p	signature:(std::fstream &myfile)
+Distance	BioSeq.cpp	/^unsigned int BioSeq::Distance(const std::string &s1, const std::string &s2, const unsigned int StopIfReached)$/;"	f	class:BioSeq	signature:(const std::string &s1, const std::string &s2, const unsigned int StopIfReached)
+Distance	BioSeq.hpp	/^    unsigned int Distance(const std::string &s1, const std::string &s2, const unsigned int StopIfReached);$/;"	p	class:BioSeq	access:public	signature:(const std::string &s1, const std::string &s2, const unsigned int StopIfReached)
+Double1IsEqualToDouble2	aux.cpp	/^bool Double1IsEqualToDouble2(const double d1, const double d2, const double eps)$/;"	f	signature:(const double d1, const double d2, const double eps)
+Double1IsEqualToDouble2	aux.hpp	/^bool Double1IsEqualToDouble2(const double d1, const double d2, const double eps);$/;"	p	signature:(const double d1, const double d2, const double eps)
+Double1IsGreaterThanDouble2	aux.cpp	/^bool Double1IsGreaterThanDouble2(const double d1, const double d2, const double eps)$/;"	f	signature:(const double d1, const double d2, const double eps)
+Double1IsGreaterThanDouble2	aux.hpp	/^bool Double1IsGreaterThanDouble2(const double d1, const double d2, const double eps);$/;"	p	signature:(const double d1, const double d2, const double eps)
+Double1IsLessThanDouble2	aux.cpp	/^bool Double1IsLessThanDouble2(const double d1, const double d2, const double eps)$/;"	f	signature:(const double d1, const double d2, const double eps)
+Double1IsLessThanDouble2	aux.hpp	/^bool Double1IsLessThanDouble2(const double d1, const double d2, const double eps);$/;"	p	signature:(const double d1, const double d2, const double eps)
+EPS	aux.hpp	/^const double EPS = 0.000000001;$/;"	v
+G_count	BioSeq.hpp	/^    unsigned int G_count; \/\/to keep track of number of nuc occurances while matching$/;"	m	struct:Motif	access:public
+GetCount	BioSeq.hpp	/^    unsigned int GetCount(void){return m_count;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetCountCutoff	BioSeq.hpp	/^    unsigned int GetCountCutoff(void){return m_count_cutoff;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetMotif	BioSeq.hpp	/^    Motif GetMotif(void){return m_motif;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetNFilesRead	BioSeq.hpp	/^    unsigned int GetNFilesRead(void){return m_N_files_read;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetNSeqFound	BioSeq.hpp	/^    unsigned int GetNSeqFound(void){return m_N_BSeq_found;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetRawSequences	BioSeq.hpp	/^    std::vector < std::vector < std::string > > GetRawSequences(void){return m_raw_seq;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetSeqALength	BioSeq.hpp	/^    unsigned int GetSeqALength(void){return m_seqA_length;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetSeqAMissMatch	BioSeq.hpp	/^    unsigned int GetSeqAMissMatch(void){return m_seqA_mismatches;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetSeqBLength	BioSeq.hpp	/^    unsigned int GetSeqBLength(void){return m_seqB_length;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetSeqBMissMatch	BioSeq.hpp	/^    unsigned int GetSeqBMissMatch(void){return m_seqB_mismatches;}$/;"	f	class:BioSeq	access:public	signature:(void)
+GetSeqLength	BioSeq.hpp	/^    unsigned int GetSeqLength(void){return m_seq_length;}$/;"	f	class:BioSeq	access:public	signature:(void)
+IsMotif	BioSeq.cpp	/^bool BioSeq::IsMotif(void)$/;"	f	class:BioSeq	signature:(void)
+IsMotif	BioSeq.hpp	/^    bool IsMotif(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+IsMotifFront	BioSeq.cpp	/^bool BioSeq::IsMotifFront(const BSeq bs_0)$/;"	f	class:BioSeq	signature:(const BSeq bs_0)
+IsMotifFront	BioSeq.hpp	/^    bool IsMotifFront(const BSeq bs_0);$/;"	p	class:BioSeq	access:public	signature:(const BSeq bs_0)
+IsNew	BioSeq.cpp	/^bool BioSeq::IsNew(const std::string &str_a)$/;"	f	class:BioSeq	signature:(const std::string &str_a)
+IsNew	BioSeq.hpp	/^    bool IsNew(const std::string &str_a);$/;"	p	class:BioSeq	access:public	signature:(const std::string &str_a)
+Motif	BioSeq.hpp	/^struct Motif$/;"	s
+Motif::A_count	BioSeq.hpp	/^    unsigned int A_count;$/;"	m	struct:Motif	access:public
+Motif::G_count	BioSeq.hpp	/^    unsigned int G_count; \/\/to keep track of number of nuc occurances while matching$/;"	m	struct:Motif	access:public
+Motif::aQ	BioSeq.hpp	/^    std::vector < unsigned int > aQ; \/\/measures contribution of each nuc in the motif$/;"	m	struct:Motif	access:public
+Motif::a_mis	BioSeq.hpp	/^    std::vector < unsigned int > a_mis;$/;"	m	struct:Motif	access:public
+Motif::bQ	BioSeq.hpp	/^    std::vector < unsigned int > bQ;$/;"	m	struct:Motif	access:public
+Motif::b_mis	BioSeq.hpp	/^    std::vector < unsigned int > b_mis;$/;"	m	struct:Motif	access:public
+Motif::bs	BioSeq.hpp	/^    BSeq bs;$/;"	m	struct:Motif	access:public
+Motif::score	BioSeq.hpp	/^    unsigned int score; \/\/ number of sequences matched$/;"	m	struct:Motif	access:public
+NucleotidesEqualAG	BioSeq.cpp	/^bool BioSeq::NucleotidesEqualAG(const char &n1, const char &n2)$/;"	f	class:BioSeq	signature:(const char &n1, const char &n2)
+NucleotidesEqualAG	BioSeq.hpp	/^    bool NucleotidesEqualAG(const char &n1, const char &n2);$/;"	p	class:BioSeq	access:public	signature:(const char &n1, const char &n2)
+OpenFile	aux.cpp	/^int OpenFile(const char *fname, const int appendYN, std::fstream &myfile)$/;"	f	signature:(const char *fname, const int appendYN, std::fstream &myfile)
+OpenFile	aux.hpp	/^int OpenFile(const char *fname, const int appendYN, std::fstream &myfile);$/;"	p	signature:(const char *fname, const int appendYN, std::fstream &myfile)
+OutputMotifs	BioSeq.hpp	/^    int OutputMotifs(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+PopulateBSeqV	BioSeq.cpp	/^void BioSeq::PopulateBSeqV(void)$/;"	f	class:BioSeq	signature:(void)
+PopulateBSeqV	BioSeq.hpp	/^    void PopulateBSeqV(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+PrintVectorSizeToConsole	aux.hpp	/^void PrintVectorSizeToConsole (T& a) {$/;"	f	signature:(T& a)
+PrintVectorToConsole	aux.hpp	/^int PrintVectorToConsole (T& a, const unsigned int i_first, const unsigned int i_last) {$/;"	f	signature:(T& a, const unsigned int i_first, const unsigned int i_last)
+ReadSequences	BioSeq.cpp	/^int BioSeq::ReadSequences(const char *path)$/;"	f	class:BioSeq	signature:(const char *path)
+ReadSequences	BioSeq.hpp	/^    int ReadSequences(const char *path);$/;"	p	class:BioSeq	access:public	signature:(const char *path)
+Round	aux.cpp	/^double Round(double x, int i)$/;"	f	signature:(double x, int i)
+Round	aux.hpp	/^double Round(double x, int i);$/;"	p	signature:(double x, int i)
+SearchByDistance	BioSeq.hpp	/^    void SearchByDistance(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+SearchFront	BioSeq.cpp	/^void BioSeq::SearchFront(std::fstream &myfile)$/;"	f	class:BioSeq	signature:(std::fstream &myfile)
+SearchFront	BioSeq.hpp	/^    void SearchFront(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+SearchFull	BioSeq.cpp	/^void BioSeq::SearchFull(std::fstream &myfile)$/;"	f	class:BioSeq	signature:(std::fstream &myfile)
+SearchFull	BioSeq.hpp	/^    void SearchFull(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+SetCountCutoff	BioSeq.hpp	/^    void SetCountCutoff(const unsigned int x){m_count_cutoff=x;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x)
+SetDelim	BioSeq.hpp	/^    void SetDelim(const std::string &s){m_delim=s;} $/;"	f	class:BioSeq	access:public	signature:(const std::string &s)
+SetSeqAMisMatch	BioSeq.hpp	/^    void SetSeqAMisMatch(const unsigned int n){m_seqA_mismatches=n;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int n)
+SetSeqAStartLength	BioSeq.hpp	/^    void SetSeqAStartLength(const unsigned int x, const unsigned int l){m_seqA_start=x;m_seqA_length=l;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x, const unsigned int l)
+SetSeqBMisMatch	BioSeq.hpp	/^    void SetSeqBMisMatch(const unsigned int n){m_seqB_mismatches=n;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int n)
+SetSeqBStartLength	BioSeq.hpp	/^    void SetSeqBStartLength(const unsigned int x, const unsigned int l){m_seqB_start=x;m_seqB_length=l;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x, const unsigned int l)
+SetSeqLength	BioSeq.hpp	/^    void SetSeqLength(const unsigned int x){m_seq_length=x;}$/;"	f	class:BioSeq	access:public	signature:(const unsigned int x)
+TimeStamp	aux.cpp	/^std::string TimeStamp(void)$/;"	f	signature:(void)
+TimeStamp	aux.hpp	/^std::string TimeStamp(void);$/;"	p	signature:(void)
+ValidateBSeqV	BioSeq.cpp	/^void BioSeq::ValidateBSeqV(void)$/;"	f	class:BioSeq	signature:(void)
+ValidateBSeqV	BioSeq.hpp	/^    void ValidateBSeqV(void);$/;"	p	class:BioSeq	access:public	signature:(void)
+WriteMotifsToFile	BioSeq.cpp	/^void BioSeq::WriteMotifsToFile(std::fstream &myfile)$/;"	f	class:BioSeq	signature:(std::fstream &myfile)
+WriteMotifsToFile	BioSeq.hpp	/^    void WriteMotifsToFile(std::fstream &myfile);$/;"	p	class:BioSeq	access:public	signature:(std::fstream &myfile)
+WriteSomethingToFile	aux.hpp	/^int WriteSomethingToFile(std::fstream &myfile, const T &s)$/;"	f	signature:(std::fstream &myfile, const T &s)
+_AUX_HPP	aux.hpp	2;"	d
+_BIOSEQ_HPP	BioSeq.hpp	3;"	d
+a	BioSeq.hpp	/^    std::string a;$/;"	m	struct:BSeq	access:public
+aQ	BioSeq.hpp	/^    std::vector < unsigned int > aQ; \/\/measures contribution of each nuc in the motif$/;"	m	struct:Motif	access:public
+a_mis	BioSeq.hpp	/^    std::vector < unsigned int > a_mis;$/;"	m	struct:Motif	access:public
+b	BioSeq.hpp	/^    std::string b;$/;"	m	struct:BSeq	access:public
+bQ	BioSeq.hpp	/^    std::vector < unsigned int > bQ;$/;"	m	struct:Motif	access:public
+b_mis	BioSeq.hpp	/^    std::vector < unsigned int > b_mis;$/;"	m	struct:Motif	access:public
+bs	BioSeq.hpp	/^    BSeq bs;$/;"	m	struct:Motif	access:public
+index	BioSeq.hpp	/^    unsigned int index;   \/\/which sequence it came from$/;"	m	struct:BSeq	access:public
+m_N_BSeq_found	BioSeq.hpp	/^    unsigned int m_N_BSeq_found;$/;"	m	class:BioSeq	access:private
+m_N_files_read	BioSeq.hpp	/^    unsigned int m_N_files_read;$/;"	m	class:BioSeq	access:private
+m_bSeqV	BioSeq.hpp	/^    std::vector < std::vector < BSeq > > m_bSeqV; \/\/main container for reshaped sequences$/;"	m	class:BioSeq	access:private
+m_count	BioSeq.hpp	/^    unsigned int m_count;$/;"	m	class:BioSeq	access:private
+m_count_cutoff	BioSeq.hpp	/^    unsigned int m_count_cutoff;   \/\/only keep motifs matching at least this many sequences$/;"	m	class:BioSeq	access:private
+m_delim	BioSeq.hpp	/^    std::string m_delim;           \/\/exon delim$/;"	m	class:BioSeq	access:private
+m_motif	BioSeq.hpp	/^    Motif m_motif;$/;"	m	class:BioSeq	access:private
+m_motifs	BioSeq.hpp	/^    std::vector < Motif > m_motifs;    \/\/full motifs$/;"	m	class:BioSeq	access:private
+m_motifs_a	BioSeq.hpp	/^    std::vector < Motif > m_motifs_a;  \/\/string a only$/;"	m	class:BioSeq	access:private
+m_raw_seq	BioSeq.hpp	/^    std::vector < std::vector < std::string > > m_raw_seq;$/;"	m	class:BioSeq	access:private
+m_seqA_length	BioSeq.hpp	/^    unsigned int m_seqA_length;$/;"	m	class:BioSeq	access:private
+m_seqA_mismatches	BioSeq.hpp	/^    unsigned int m_seqA_mismatches;  \/\/max num of mismatches $/;"	m	class:BioSeq	access:private
+m_seqA_start	BioSeq.hpp	/^    unsigned int m_seqA_start;$/;"	m	class:BioSeq	access:private
+m_seqB_length	BioSeq.hpp	/^    unsigned int m_seqB_length;$/;"	m	class:BioSeq	access:private
+m_seqB_mismatches	BioSeq.hpp	/^    unsigned int m_seqB_mismatches;$/;"	m	class:BioSeq	access:private
+m_seqB_start	BioSeq.hpp	/^    unsigned int m_seqB_start;$/;"	m	class:BioSeq	access:private
+m_seq_length	BioSeq.hpp	/^    unsigned int m_seq_length;$/;"	m	class:BioSeq	access:private
+m_unique_motifs	BioSeq.hpp	/^    std::set < std::string > m_unique_motifs; \/\/string a only, for checking uniquenes$/;"	m	class:BioSeq	access:private
+main	mf.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+score	BioSeq.hpp	/^    unsigned int score; \/\/ number of sequences matched$/;"	m	struct:Motif	access:public
+~BioSeq	BioSeq.cpp	/^BioSeq::~BioSeq(void)$/;"	f	class:BioSeq	signature:(void)
+~BioSeq	BioSeq.hpp	/^    ~BioSeq(void);$/;"	p	class:BioSeq	access:public	signature:(void)
